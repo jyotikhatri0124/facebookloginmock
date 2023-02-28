@@ -1,0 +1,16 @@
+version: '3.0'
+services:
+    mocck-server:
+        container_name: mock-server
+        build:
+            context: mock-server
+            dockerfile: Dockerfile
+        image: mock-server:latest
+        ports:
+            - 8089:8080
+        networks:
+            - spring-cloud-network
+   
+networks:
+    spring-cloud-network:
+        driver: bridge
