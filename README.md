@@ -3,7 +3,7 @@
 Steps for stating service:
 
 1) Clone the repo
-2) Make sure docker is install on system
+2) Make sure docker is installed on system
 3) Run command docker compose up
 4) Service will run on 8089 port
 
