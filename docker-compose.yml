@@ -12,5 +12,5 @@ services:
             - spring-cloud-network
    
 networks:
-    spring-cloud-network:
+    spring-cloud-network: 
         driver: bridge
